@@ -18,4 +18,4 @@ Renovate leaves `.claude/skills/with-dependencies/apm.yml` alone, because `apm.l
 
 ## Link to the Renovate issue or Discussion
 
-Not posted yet. The draft is [MPV/renovate#24](https://github.com/MPV/renovate/issues/24).
+- Discussion: [renovatebot/renovate#46878](https://github.com/renovatebot/renovate/discussions/46878)
