@@ -1,0 +1,84 @@
+lockfile_version: '1'
+apm_version: 0.33.0
+dependencies:
+- repo_url: mpv/renovate-apm-demo1
+  materialization_repo_url: MPV/renovate-apm-demo1
+  name: with-dependencies
+  host: github.com
+  resolved_commit: 8f8e319be130cee292c4a8a8e8ff286f8271afb5
+  resolved_ref: 8f8e319be130cee292c4a8a8e8ff286f8271afb5
+  version: 1.0.0
+  virtual_path: skills/with-dependencies
+  is_virtual: true
+  package_type: hybrid
+  deployed_files:
+  - .claude/skills/with-dependencies
+  - .claude/skills/with-dependencies/SKILL.md
+  - .claude/skills/with-dependencies/apm.yml
+  deployed_file_hashes:
+    .claude/skills/with-dependencies/SKILL.md: sha256:8c68664b9986dd14d27b550bb6969b996ac7ad40f76d7eb82cc0afa4317af916
+    .claude/skills/with-dependencies/apm.yml: sha256:740c308a999f8d180ef5baf82463d45e8556c86f25bf33b7bc0665d2596ee3d6
+  content_hash: sha256:d96e4e6c89822c133406e843fd3df60b5b9070f442e39396e65b7dc745e3931e
+- repo_url: mattpocock/skills
+  name: grill-me
+  host: github.com
+  resolved_commit: bddb833cbaa322ff89d07e490530860aa73a4293
+  resolved_ref: v1.0.0
+  version: unknown
+  virtual_path: skills/productivity/grill-me
+  is_virtual: true
+  depth: 2
+  resolved_by: MPV/renovate-apm-demo1
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/grill-me
+  - .claude/skills/grill-me/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/grill-me/SKILL.md: sha256:6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54
+  content_hash: sha256:f321507f77702a54af1db66549ec1685fc625390d06c57d7949cdcda8eb1b5c7
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/skills/grill-me
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/grill-me/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mattpocock/skills/skills/productivity/grill-me
+  active_owner: mattpocock/skills/skills/productivity/grill-me
+  content_hash: sha256:6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54
+- kind: project-relative
+  target: claude
+  value: .claude/skills/with-dependencies
+  runtime: null
+  scope: project
+  owners:
+  - mpv/renovate-apm-demo1/skills/with-dependencies
+  active_owner: mpv/renovate-apm-demo1/skills/with-dependencies
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/with-dependencies/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mpv/renovate-apm-demo1/skills/with-dependencies
+  active_owner: mpv/renovate-apm-demo1/skills/with-dependencies
+  content_hash: sha256:8c68664b9986dd14d27b550bb6969b996ac7ad40f76d7eb82cc0afa4317af916
+- kind: project-relative
+  target: claude
+  value: .claude/skills/with-dependencies/apm.yml
+  runtime: null
+  scope: project
+  owners:
+  - mpv/renovate-apm-demo1/skills/with-dependencies
+  active_owner: mpv/renovate-apm-demo1/skills/with-dependencies
+  content_hash: sha256:740c308a999f8d180ef5baf82463d45e8556c86f25bf33b7bc0665d2596ee3d6

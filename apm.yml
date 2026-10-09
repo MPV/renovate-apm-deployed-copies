@@ -1,0 +1,6 @@
+name: renovate-apm-deployed-copies
+version: 1.0.0
+targets: [claude]
+dependencies:
+  apm:
+    - MPV/renovate-apm-demo1/skills/with-dependencies#8f8e319be130cee292c4a8a8e8ff286f8271afb5
