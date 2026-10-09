@@ -8,6 +8,8 @@
 
 The apm manager matches every `apm.yml`, so Renovate extracts the copy as a project of its own and opens an update for `grill-me` that edits only the copy. The next `apm install` restores the copy from the package and undoes the update.
 
+Renovate's PR for it: #1, whose only change is to the copy.
+
 The root `apm.yml` pins a bare commit, which Renovate skips, so the copy is the only file with an update.
 
 ## Expected behavior
