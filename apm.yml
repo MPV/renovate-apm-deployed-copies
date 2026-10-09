@@ -3,4 +3,4 @@ version: 1.0.0
 targets: [claude]
 dependencies:
   apm:
-    - MPV/renovate-apm-demo1/skills/with-dependencies#8f8e319be130cee292c4a8a8e8ff286f8271afb5
+    - MPV/renovate-apm-demo1/skills/with-dependencies#0669b002b2c25255c995335b02c903313b1aca26

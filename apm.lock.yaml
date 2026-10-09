@@ -5,8 +5,8 @@ dependencies:
   materialization_repo_url: MPV/renovate-apm-demo1
   name: with-dependencies
   host: github.com
-  resolved_commit: 8f8e319be130cee292c4a8a8e8ff286f8271afb5
-  resolved_ref: 8f8e319be130cee292c4a8a8e8ff286f8271afb5
+  resolved_commit: 0669b002b2c25255c995335b02c903313b1aca26
+  resolved_ref: 0669b002b2c25255c995335b02c903313b1aca26
   version: 1.0.0
   virtual_path: skills/with-dependencies
   is_virtual: true
