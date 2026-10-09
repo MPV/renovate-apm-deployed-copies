@@ -8,7 +8,7 @@
 
 The apm manager matches every `apm.yml`, so Renovate extracts the copy as a project of its own and opens an update for `grill-me` that edits only the copy. The next `apm install` restores the copy from the package and undoes the update.
 
-Renovate's PR for it: #1, whose only change is to the copy.
+Renovate's PR for it: [#1](https://github.com/MPV/renovate-apm-deployed-copies/pull/1), whose only change is to the copy.
 
 The root `apm.yml` pins a bare commit, which Renovate skips, so the copy is the only file with an update.
 
@@ -18,4 +18,4 @@ Renovate leaves `.claude/skills/with-dependencies/apm.yml` alone, because `apm.l
 
 ## Link to the Renovate issue or Discussion
 
-Not posted yet. The draft is MPV/renovate#24.
+Not posted yet. The draft is [MPV/renovate#24](https://github.com/MPV/renovate/issues/24).
